@@ -1,0 +1,29 @@
+ mkdir proyectos
+  233  sudo mkdir proyectos
+  234  ls
+  235  ls -la
+  236  ls -la angel
+  237  cd proyectos/
+  238  ls
+  239  touch proyecto1.pdf
+  240  sudo touch proyecto1.pdf
+  241  sudo touch proyecto2.pdf
+  242  sudo mkdir pruebas
+  243  cd pruebas
+  244  sudo touch prueba1.pdf
+  245  sudo touch prueba2.pdf
+  246  cd ..
+  247  sudo mkdir src
+  248  tree proyectos
+  249  sudo apt install tree
+  250  tree proyectos
+  251  tree /proyectos
+  252  cd /src
+  253  sudo cd /src
+  254  ls
+  255  cd sr
+  256  cd src
+  257  ls
+  258  sudo touch app1.sh
+  259  sudo touch app2.sh
+  260  tree /proyectos
