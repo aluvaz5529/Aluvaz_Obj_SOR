@@ -7,3 +7,11 @@ sudo groupadd Exp
 sudo useradd -g Infor -d /home/usu_sinformacion -m -s /bin/bash usu_sinformacion
 sudo useradd -g Des -d /home/usu_desarrollo -m -s /bin/bash usu_desarrollo 
 sudo useradd -g Exp -d /home/usu_explotacion -m -s /bin/bash usu_explotacion
+
+#La -g es directamente añadir ese usuarios a ese grupo 
+#La -d es para asignarle un directorio personal
+#La -m crea automáticamente el directorio personal del usuario
+#La -s especifica el shell que el usuario va a utilizar (bash)
+
+#cat /etc/passwd ves los usuarios
+#cat /etc/group ves los grupos
