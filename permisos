@@ -26,7 +26,7 @@ sudo setfacl -m g:Des:w /proyectos/src/app2.sh
 sudo setfacl -m g:Exp:7 /proyectos/pruebas
 sudo setfacl -m g:Exp:7 /proyectos/pruebas/prueba2.pdf
 sudo setfacl -m g:Exp:7 /proyectos/pruebas/prueba1.pdf
-sudo setfacl -m g:Des:r /proyectos/src/app1.sh
-sudo setfacl -m g:Des:r /proyectos/src/app2.sh
+sudo setfacl -m g:Exp:r /proyectos/src/app1.sh
+sudo setfacl -m g:Exp:r /proyectos/src/app2.sh
 
 
