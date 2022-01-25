@@ -3,4 +3,7 @@ sudo groupadd Infor
 sudo groupadd Des
 sudo groupadd Exp
 
-Crear users
+#Crear usuarios
+sudo useradd -g Infor -d /home/usu_sinformacion -m -s /bin/bash usu_sinformacion
+sudo useradd -g Des -d /home/usu_desarrollo -m -s /bin/bash usu_desarrollo 
+sudo useradd -g Exp -d /home/usu_explotacion -m -s /bin/bash usu_explotacion
