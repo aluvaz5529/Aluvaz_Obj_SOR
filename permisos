@@ -1,1 +1,5 @@
-#permisos
+#primero les pondré contraseña con estos comandos
+#sudo passwd usu_sinformacion
+#sudo passwd usu_desarrollo
+#sudo passwd usu_explotacion
+
