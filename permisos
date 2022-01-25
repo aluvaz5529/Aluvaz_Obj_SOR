@@ -18,6 +18,7 @@ sudo setfacl -m g:Infor:7 /proyectos/proyecto2.pdf
 sudo setfacl -m g:Des:r-w /proyectos/src
 sudo setfacl -m g:Des:r-w /proyectos/src/app1.sh
 sudo setfacl -m g:Des:r-w /proyectos/src/app2.sh
+#este no se como ponerlo porque si ponas las dos líneas por separado se quedaba el ultimo permisos que le habias dado y no me ha funcionado 
 
 
 #permisos lectura y escritura de Exp
