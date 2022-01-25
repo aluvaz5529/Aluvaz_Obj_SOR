@@ -1,0 +1,6 @@
+#Crear grupos
+sudo groupadd Infor
+sudo groupadd Des
+sudo groupadd Exp
+
+Crear users
