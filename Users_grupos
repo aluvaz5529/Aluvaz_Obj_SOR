@@ -14,4 +14,7 @@ sudo useradd -g Exp -d /home/usu_explotacion -m -s /bin/bash usu_explotacion
 #La -s especifica el shell que el usuario va a utilizar (bash)
 
 #cat /etc/passwd ves los usuarios
+#para ver los usuarios solo con el nombre cut -d: -f1 /etc/passwd
+
 #cat /etc/group ves los grupos
+#para ver los grupos solo con el nombre cut -d: -f1 /etc/group
