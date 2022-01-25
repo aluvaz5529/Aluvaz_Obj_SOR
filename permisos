@@ -3,3 +3,30 @@
 #sudo passwd usu_desarrollo
 #sudo passwd usu_explotacion
 
+#permisos totales para el grupo I información
+
+sudo setfacl -m g:Infor:7 /proyectos/src
+sudo setfacl -m g:Infor:7 /proyectos/src/app1.sh
+sudo setfacl -m g:Infor:7 /proyectos/src/app2.sh
+sudo setfacl -m g:Infor:7 /proyectos/pruebas
+sudo setfacl -m g:Infor:7 /proyectos/pruebas/prueba2.pdf
+sudo setfacl -m g:Infor:7 /proyectos/pruebas/prueba1.pdf
+sudo setfacl -m g:Infor:7 /proyectos/proyecto1.pdf
+sudo setfacl -m g:Infor:7 /proyectos/proyecto2.pdf
+
+#permisos lectura y escritura 
+sudo setfacl -m g:Des:r /proyectos/src
+sudo setfacl -m g:Des:r /proyectos/src/app1.sh
+sudo setfacl -m g:Des:r /proyectos/src/app2.sh
+sudo setfacl -m g:Des:w /proyectos/src
+sudo setfacl -m g:Des:w /proyectos/src/app1.sh
+sudo setfacl -m g:Des:w /proyectos/src/app2.sh
+
+#permisos lectura y escritura de Exp
+sudo setfacl -m g:Exp:7 /proyectos/pruebas
+sudo setfacl -m g:Exp:7 /proyectos/pruebas/prueba2.pdf
+sudo setfacl -m g:Exp:7 /proyectos/pruebas/prueba1.pdf
+sudo setfacl -m g:Des:r /proyectos/src/app1.sh
+sudo setfacl -m g:Des:r /proyectos/src/app2.sh
+
+
